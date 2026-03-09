@@ -1,4 +1,4 @@
-<!--note to self: to commit, type: git commit -m "msg here" -->
+<!--note to self: to commit, type: git add . , git commit -m "msg here" , then git push.-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +28,21 @@
 
     </style>
 </head>
-<p>hi</p>
-<test></test>
-ff
-this is a test change.
+<body>
+
+    <h1><u>Guess The Number Game</u></h1>
+
+    <div id="game-container">
+        <h2>Guess the Number Game</h2>
+        <p>Guess a number between 1 and 1000<br><b><i>6 Guesses:</i></b></p>
+        <input type="number" id="userGuess" min="1" max="1000">
+        <button onclick="checkGuess()">Submit Guess</button>
+        <p id="result"></p>
+        <hr>
+    </div>
+
+ 
+
+    <br>
+    <br>
+    <br>
